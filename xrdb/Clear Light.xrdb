@@ -17,8 +17,9 @@
 #define Background_Color #ffffff
 #define Bold_Color #313c44
 #define Cursor_Color #919191
-#define Cursor_Guide_Color #919191
-#define Cursor_Text_Color #ffffff
+#define Cursor_Guide_Color #e5ecf1
+#define Cursor_Text_Color #3a4851
 #define Foreground_Color #3a4851
-#define Selected_Text_Color #b2b2b2
+#define Link_Color #5685a8
+#define Selected_Text_Color #3a4851
 #define Selection_Color #e5ecf1

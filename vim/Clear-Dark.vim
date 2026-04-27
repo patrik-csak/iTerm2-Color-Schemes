@@ -59,7 +59,7 @@ hi Debug guifg=#e5c872
 hi Ignore guifg=#212734
 
 " Cursor and line highlighting
-hi Cursor guifg=#212734 guibg=#9d9d9d
+hi Cursor guifg=#e6e6e6 guibg=#929292
 hi CursorLine guibg=#334e5e
 hi CursorColumn guibg=#334e5e
 

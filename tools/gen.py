@@ -273,10 +273,10 @@ def adjust_colors_for_wcag(colors_dict: dict[str, Color], name: str) -> None:
                     round(suggested_fg_rgb[1] * 255),
                     round(suggested_fg_rgb[2] * 255),
                 )
-                old_rgb = (fg_color.r, fg_color.g, fg_color.b)
-                new_rgb = (new_color.r, new_color.g, new_color.b)
+                old_hex = f"#{fg_color.hex}"
+                new_hex = f"#{new_color.hex}"
                 print(
-                    f"Adjusted {color_name} in {name} from RGB{old_rgb} to RGB{new_rgb}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
+                    f"Adjusted {color_name} in {name} from {old_hex} to {new_hex}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
                     file=sys.stderr,
                 )
                 colors_dict[color_name] = new_color
@@ -295,10 +295,10 @@ def adjust_colors_for_wcag(colors_dict: dict[str, Color], name: str) -> None:
                 round(suggested_fg_rgb[1] * 255),
                 round(suggested_fg_rgb[2] * 255),
             )
-            old_rgb = (cursor_text_color.r, cursor_text_color.g, cursor_text_color.b)
-            new_rgb = (new_color.r, new_color.g, new_color.b)
+            old_hex = f"#{cursor_text_color.hex}"
+            new_hex = f"#{new_color.hex}"
             print(
-                f"Adjusted Cursor Text Color in {name} from RGB{old_rgb} to RGB{new_rgb}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
+                f"Adjusted Cursor Text Color in {name} from {old_hex} to {new_hex}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
                 file=sys.stderr,
             )
             colors_dict["Cursor Text Color"] = new_color
@@ -317,10 +317,10 @@ def adjust_colors_for_wcag(colors_dict: dict[str, Color], name: str) -> None:
                 round(suggested_fg_rgb[1] * 255),
                 round(suggested_fg_rgb[2] * 255),
             )
-            old_rgb = (sel_text_color.r, sel_text_color.g, sel_text_color.b)
-            new_rgb = (new_color.r, new_color.g, new_color.b)
+            old_hex = f"#{sel_text_color.hex}"
+            new_hex = f"#{new_color.hex}"
             print(
-                f"Adjusted Selected Text Color in {name} from RGB{old_rgb} to RGB{new_rgb}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
+                f"Adjusted Selected Text Color in {name} from {old_hex} to {new_hex}: old ratio {old_ratio:.2f} -> new {new_ratio:.2f}",
                 file=sys.stderr,
             )
             colors_dict["Selected Text Color"] = new_color

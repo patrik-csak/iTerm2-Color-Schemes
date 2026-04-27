@@ -22,8 +22,10 @@ color_16: "#D8E1E7"
 background: "#FFFFFF"
 foreground: "#3A4851"
 cursor: "#919191"
+link: "#5685A8"
 selection: "#E5ECF1"
 bold: "#313C44"
 
-# cursor_text: 'cell-foreground'
-# selection_text: 'cell-foreground'
+cursor_text: "#3A4851"
+cursor_guide: "#E5ECF1"
+selection_text: "#3A4851"

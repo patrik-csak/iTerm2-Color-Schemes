@@ -1,7 +1,7 @@
 [colors]
 background = #ffffff
 cursor = #919191
-cursor_foreground = #ffffff
+cursor_foreground = #3a4851
 foreground = #3a4851
 color0 = #2d3840
 color1 = #b45648

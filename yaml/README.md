@@ -11,7 +11,7 @@ with the optional extra keys:
 * `badge`
 * `bold` (defaults to `foreground`)
 * `cursor_guide` (defaults to `cursor`)
-* `cursor_text` (defaults to `foreground`)
+* `cursor_text` (defaults to `background`)
 * `link`
 * `selection_text` (defaults to `background`)
 * `selection` (defaults to `foreground`)

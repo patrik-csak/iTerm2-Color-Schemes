@@ -16,9 +16,10 @@
 #define Ansi_9_Color #df6c5a
 #define Background_Color #212734
 #define Bold_Color #f0f0f0
-#define Cursor_Color #9d9d9d
-#define Cursor_Guide_Color #9d9d9d
-#define Cursor_Text_Color #212734
+#define Cursor_Color #929292
+#define Cursor_Guide_Color #334e5e
+#define Cursor_Text_Color #e6e6e6
 #define Foreground_Color #e6e6e6
-#define Selected_Text_Color #6e7380
+#define Link_Color #6d96b4
+#define Selected_Text_Color #e6e6e6
 #define Selection_Color #334e5e
